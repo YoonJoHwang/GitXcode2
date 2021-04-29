@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		9A6C2931263AE2960079880E /* GitXcode2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GitXcode2; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6C2934263AE2960079880E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9A6C293B263AE39A0079880E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +42,7 @@
 		9A6C2928263AE2960079880E = {
 			isa = PBXGroup;
 			children = (
+				9A6C293B263AE39A0079880E /* .gitignore */,
 				9A6C2933263AE2960079880E /* GitXcode2 */,
 				9A6C2932263AE2960079880E /* Products */,
 			);
@@ -98,7 +100,7 @@
 				};
 			};
 			buildConfigurationList = 9A6C292C263AE2960079880E /* Build configuration list for PBXProject "GitXcode2" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 11.4";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
